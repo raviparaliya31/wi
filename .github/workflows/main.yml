@@ -26,7 +26,7 @@ jobs:
       - name: Set up LEGEND binaries
         run: |
           chmod +x *
-          chmod +x LEGEND
+           chmod +x LEGEND
           
       - name: Set up Python
         uses: actions/setup-python@v3
